@@ -1,4 +1,4 @@
-package utilits;
+package utilites;
 
 public class ITunesProduct
 {

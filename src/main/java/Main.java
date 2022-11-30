@@ -1,4 +1,4 @@
-import utilits.ITunesDownloader;
+import utilites.ITunesDownloader;
 import java.io.IOException;
 import java.util.Arrays;
 
@@ -7,9 +7,9 @@ public class Main
     public static void main(String[] args) throws IOException
     {
         // This program will download from iTunes API demo file
-        // of some song, book, audiobook or film yow want.
+        // or some song, book, audiobook or film yow want.
 
-        String[] filesArray = new String[20]; // Ус
+        String[] filesArray = new String[20];
         Arrays.fill(filesArray, "");
 
         for (int i = 0; i < filesArray.length; i++)

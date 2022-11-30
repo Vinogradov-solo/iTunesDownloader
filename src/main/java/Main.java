@@ -16,7 +16,7 @@ public class Main
         {
 
             ITunesDownloader downloader = new ITunesDownloader();
-            String myUrlPath = "";
+            String myUrlPath;
 
             try
             {
@@ -29,15 +29,13 @@ public class Main
 
             boolean bool = true;
 
-            for (int j = 0; j < filesArray.length; j++)
+            for (String s : filesArray)
             {
-                if (filesArray[j].equals(myUrlPath))
+                if (s.equals(myUrlPath))
                 {
                     System.out.println("This file is already added. Try again\n");
                     bool = false;
-                    continue;
                 }
-                continue;
             }
             if (!bool) continue;
 
